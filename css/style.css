@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(-120deg, #051923, #003554);
+    height: 100vh;
+    color: #181818;
+    line-height: 1.4;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    margin: 5rem auto;
+    background: linear-gradient(#fff, #c5ebff);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* header */
+.card .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 1rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid #00a6fb;
+}
+
+.card .card-header h1 {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.card .card-header .btn-next i {
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.card .card-header .menu i {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* card rating */
+.card .card-rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 0 2rem;
+}
+
+.card .card-rating h3 {
+    color: #00a6fb;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.card .card-rating .rating {
+    background: #c5ebff;
+    padding: 0.4rem 0.5rem;
+    border-radius: 50%;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+/* card image */
+.card-image {
+    position: relative;
+    margin: 2rem 0 3rem;
+}
+
+.card-image .image-bg {
+    position: relative;
+    height: 200px;
+}
+
+.card-image .image-main {
+    position: absolute;
+    top: -15px;
+    left: 30px;
+    max-width: 340px;
+}
+
+.card-image .btn-play i {
+    position: absolute;
+    top: 90px;
+    left: 180px;
+    cursor: pointer;
+    color: #181818;
+    background: rgba(172, 172, 172, 0.65);
+    padding: 0.6rem 0.8rem 0.6rem 1rem;
+    border-radius: 50%;
+    font-size: 1.8rem;
+}
+
+.card-image .btn-play i:hover {
+    background: rgba(172, 172, 172, 0.9);
+    color: #fff;
+}
+
+/* card info */
+.card .card-info {
+    margin: 3.5rem 2rem 2.5rem;
+}
+
+.card .card-info p {
+    font-size: 0.9rem;
+    padding-top: 0.5rem;
+}
+
+.card .btn {
+    display: inline-block;
+    cursor: pointer;
+    background: #0582ca;
+    border: none;
+    padding: 1rem 0;
+    color: #fff;
+    width: 85%;
+    margin: 0 2rem 2.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.card .btn:hover {
+    background: #003554;
+}
